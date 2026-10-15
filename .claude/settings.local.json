@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(env)",
+      "Bash(ls -la ~/.claude/ 2>/dev/null | head -30; echo \"---- settings ----\"; cat ~/.claude/settings.json 2>/dev/null | head -40)",
+      "Read(//c/Users/admin/.claude/**)"
+    ]
+  }
+}
